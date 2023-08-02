@@ -20,7 +20,6 @@ public class BookDAO {
 	String password = "XXXXj86%%#";
 	
 	// Note none default port used, 6306 not 3306
-	//String url = "jdbc:mysql://mudfoot.doc.stu.mmu.ac.uk:6306/" + user;
 	//String url = "jdbc:mysql://db-book-app.ctsjg1f2c0yc.eu-north-1.rds.amazonaws.com:3306/" + user;
 	String url = "jdbc:mysql://db-book-app.ctsjg1f2c0yc.eu-north-1.rds.amazonaws.com/jessica";
 	
@@ -130,11 +129,7 @@ public class BookDAO {
 		return bok;
 	}
 
-//	public boolean updateContact(Contact c) throws SQLException {
-//		boolean b = false;
-//		// YOUR CODE HERE
-//		return b;
-//	}
+
 
 	public boolean deleteBook(Book b) throws SQLException {
 		boolean bok = false;
