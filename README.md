@@ -12,4 +12,3 @@ The project has been deployed to cloud (AWS) using Tomcat, Ubuntu, RDS and EC2. 
 
 
 ## MySQL Workbench
-![image](https://github.com/GinikachiIJ/book-library-project/assets/111279567/febc4e74-3625-4377-aa42-6d36f044687b)
