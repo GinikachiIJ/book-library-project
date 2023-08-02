@@ -16,14 +16,13 @@ public class BookDAO {
 	Book oneBook = null;
 	Connection conn = null;
 	Statement stmt = null;
-	//String user = "root";
-	//String password = "ASDlkj86%%#";
-String user = "ibuakaeg";
-String password = "jicKlent4";
+      String user = "root";
+	String password = "XXXXj86%%#";
+	
 	// Note none default port used, 6306 not 3306
-	String url = "jdbc:mysql://mudfoot.doc.stu.mmu.ac.uk:6306/" + user;
+	//String url = "jdbc:mysql://mudfoot.doc.stu.mmu.ac.uk:6306/" + user;
 	//String url = "jdbc:mysql://db-book-app.ctsjg1f2c0yc.eu-north-1.rds.amazonaws.com:3306/" + user;
-	//String url = "jdbc:mysql://db-book-app.ctsjg1f2c0yc.eu-north-1.rds.amazonaws.com/jessica";
+	String url = "jdbc:mysql://db-book-app.ctsjg1f2c0yc.eu-north-1.rds.amazonaws.com/jessica";
 	
 
 	public BookDAO() {
